@@ -51,7 +51,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(100vw/33);
+    font-size: calc(100vw/25);
     font-weight: bold;
     z-index: 1;
     color: whitesmoke;
@@ -62,7 +62,7 @@ body{
 
 .about-me{
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     background-color: rgba(0,0,0,0.4);
     border-radius: 15px;
     display: flex;
@@ -73,7 +73,17 @@ body{
 }
 .about-me h2{
     color: white;
-    font-size: calc(100vw/45);
+    font-size: calc(100vw/33);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.about-me p{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: calc(100vw/60);
+    margin-block-start: 20px;
+    margin-block-end: 0;
 }
 .about-me hr{
     width: 40vw;
