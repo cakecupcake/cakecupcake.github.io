@@ -89,10 +89,12 @@ body{
 .description{
     font-size: calc(100vw/40);
     width: 60vw;
-    text-align: center;
 }
 .description-container{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 @media (min-width: 320px) and (max-width: 480px) {
     #main{
